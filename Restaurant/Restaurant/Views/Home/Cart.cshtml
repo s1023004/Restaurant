@@ -1,0 +1,152 @@
+﻿@model System.Collections.Generic.List<Restaurant.Models.Menu>
+@{
+    ViewData["Title"] = "購物車";
+    Dictionary<int, int> count = ViewData["count"] as Dictionary<int,int>;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    int totalMoney = Convert.ToInt32(ViewData["totalMoney"]);
+}
+
+<style>
+    .amount{
+        margin-left:20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;        
+    }
+    .list_item{
+        display:flex;
+    }
+
+    .count {
+        width: 250px;
+    }
+    @@media screen and (max-width: 720px){
+        .list_item {
+            display:flow;
+        }
+        .count{
+           width:200px;
+        }
+        .card{
+            margin-left:10%;
+        }
+        .amount{
+            margin-left:10%;
+        }
+    }
+    .btn{
+        font-size:larger;
+    }
+
+    .card{
+        text-align:center;
+    }
+</style>
+
+<h1>購物車</h1>
+
+<div class="container" cartId="@ViewData["cartId"]">
+    <ul class="list-group">
+        @if(Model != null)
+        {
+            foreach (var item in Model)
+            {
+                <li class="list-group-item">
+                    <div class="list_item">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="~/image/@item.image" height="183px" width="275px" />
+                            <div class="card-body">
+                                <p class="menuId" style="display:none">@item.menuId</p>
+                                <h5 class="card-title">@item.menuName</h5>
+                                <p class="card-text">@item.price 元</p>
+                            </div>
+                        </div>
+                        <div class="amount">
+                            <button type="button" style="width:30px" class="btn btn-primary btn-sm minus">-</button>
+                            @if (count != null)
+                            {
+                                <button type="button" style="background-color:white" class="btn btn-sm count">@count[item.menuId]</button>
+                            }
+                            <button type="button" style="width:30px" class="btn btn-primary btn-sm plus">+</button>
+                            <button class="btn btn-danger" style="margin-left:10px"><i class="bi bi-trash"></i></button>
+                        </div>
+                    </div>
+                </li>
+            }
+            <div>
+                <span id="totalMoney" style="display:none">@totalMoney</span>
+                <button id="submit" style="width:100%" class="btn btn-primary">總共 @totalMoney 元，送出訂單</button>
+            </div>
+        }
+    </ul>
+    
+</div>
+<script>
+    $(function(){
+        $(".minus").click(function(){
+            if ($(this).siblings(".count").text() != '1') {
+                $(this).siblings(".count").text(parseInt($(this).siblings(".count").text()) - 1);
+                var price = $(this).parents(".list_item").find(".card-text").text();
+                $("#totalMoney").text(parseInt($("#totalMoney").text()) - parseInt(price));
+                $("#submit").text("總共"+ $('#totalMoney').text() + "元，送出訂單");
+                //@totalMoney -= price;
+            }       
+             
+        })
+
+        $(".plus").click(function(){
+            $(this).siblings(".count").text(parseInt($(this).siblings(".count").text()) + 1);
+            var count = $(this).siblings(".count").text();
+            var price = $(this).parents(".list_item").find(".card-text").text();
+            $("#totalMoney").text(parseInt($("#totalMoney").text()) + parseInt(price));
+            $("#submit").text("總共" + $('#totalMoney').text() + "元，送出訂單");
+            //@totalMoney += price;
+        })
+
+        $(".bi-trash").click(function(){
+            var IsDelete = confirm("確定要刪除嗎?");
+            if(IsDelete){
+                var cartId = $(this).parents(".container").attr("cartId");                
+                var menuId = $(this).parents(".list_item").find(".menuId").text();
+                var li = $(this).parents(".list-group-item");
+                var price = $(this).parents(".list_item").find(".card-text").text();
+                var count = $(this).siblings(".count").text();
+                var totalMoney = parseInt($("#totalMoney").text()) - parseInt(price) * parseInt(count);
+                $("#totalMoney").text(totalMoney);
+                $.ajax({
+                    url: '@Url.Action("DeleteCart","Home")',
+                    type: 'post',
+                    data: {
+                        cartId: cartId,
+                        menuId: menuId
+                    },
+                    success: function (message) {
+                        alert(message);
+                        //@totalMoney -= price * count;
+                        $("#submit").text("總共" + $('#totalMoney').text() + "元，送出訂單");
+                        li.remove();
+                    }
+                })
+            }
+        })
+
+        $("#submit").click(function(){
+            var IsSubmit = confirm("確定要送出嗎?");
+            if(IsSubmit){
+                var cartId = $(this).parents(".container").attr("cartId");
+                $.ajax({
+                    url: '@Url.Action("SubmitCart","Home")',
+                    type:'post',
+                    data:{
+                        CartID:cartId
+                    },
+                    success:function(message){                        
+                        alert(message);
+                        location.reload();
+                    }
+                })
+            }
+        })
+
+    })
+</script>

@@ -13,6 +13,138 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\image\\Beef_noodles.jpg",
+      "PackagePath": "staticwebassets\\image\\Beef_noodles.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\image\\Braised_Pork_Rice.jpg",
+      "PackagePath": "staticwebassets\\image\\Braised_Pork_Rice.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\image\\Braised_Rice_with_Pork_and_Soy_Sauce.jpg",
+      "PackagePath": "staticwebassets\\image\\Braised_Rice_with_Pork_and_Soy_Sauce.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\image\\Fried_noodles_with_shredded_pork.jpg",
+      "PackagePath": "staticwebassets\\image\\Fried_noodles_with_shredded_pork.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\image\\Fried_rice_with_shredded_pork.jpg",
+      "PackagePath": "staticwebassets\\image\\Fried_rice_with_shredded_pork.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\image\\Ribs_with_rice.jpg",
+      "PackagePath": "staticwebassets\\image\\Ribs_with_rice.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\AUTHORS.txt",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\AUTHORS.txt"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\external\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\external\\jquery\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\images\\ui-bg_diagonals-medium_20_d34d17_40x40.png",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\images\\ui-bg_diagonals-medium_20_d34d17_40x40.png"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\images\\ui-bg_gloss-wave_45_817865_500x100.png",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\images\\ui-bg_gloss-wave_45_817865_500x100.png"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\images\\ui-bg_gloss-wave_60_fece2f_500x100.png",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\images\\ui-bg_gloss-wave_60_fece2f_500x100.png"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\images\\ui-bg_gloss-wave_70_ffdd57_500x100.png",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\images\\ui-bg_gloss-wave_70_ffdd57_500x100.png"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\images\\ui-bg_gloss-wave_90_fff9e5_500x100.png",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\images\\ui-bg_gloss-wave_90_fff9e5_500x100.png"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\images\\ui-bg_highlight-soft_100_feeebd_1x100.png",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\images\\ui-bg_highlight-soft_100_feeebd_1x100.png"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\images\\ui-bg_inset-soft_30_ffffff_1x100.png",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\images\\ui-bg_inset-soft_30_ffffff_1x100.png"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\images\\ui-icons_3d3d3d_256x240.png",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\images\\ui-icons_3d3d3d_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\images\\ui-icons_bd7b00_256x240.png",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\images\\ui-icons_bd7b00_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\images\\ui-icons_d19405_256x240.png",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\images\\ui-icons_d19405_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\images\\ui-icons_eb990f_256x240.png",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\images\\ui-icons_eb990f_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\images\\ui-icons_ed9f26_256x240.png",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\images\\ui-icons_ed9f26_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\images\\ui-icons_fadc7a_256x240.png",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\images\\ui-icons_fadc7a_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\images\\ui-icons_ffe180_256x240.png",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\images\\ui-icons_ffe180_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\index.html",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\jquery-ui.css"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\jquery-ui.js",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\jquery-ui.js"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\jquery-ui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\jquery-ui.structure.css",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\jquery-ui.structure.css"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\jquery-ui.structure.min.css",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\jquery-ui.structure.min.css"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\jquery-ui.theme.css",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\jquery-ui.theme.css"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\jquery-ui.theme.min.css",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\jquery-ui.theme.min.css"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\package.json",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\package.json"
+    },
+    {
       "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

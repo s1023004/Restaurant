@@ -16,8 +16,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\roger\OneDrive\桌面\Restaurant\Restaurant\Restaurant
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/roger/OneDrive/桌面/Restaurant/Restaurant/Restaurant/Views/Home/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/roger/OneDrive/桌面/Restaurant/Restaurant/Restaurant/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/roger/OneDrive/桌面/Restaurant/Restaurant/Restaurant/Views/Home/Order.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxPcmRlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/roger/OneDrive/桌面/Restaurant/Restaurant/Restaurant/Views/Home/Privacy.cshtml]

@@ -1,8 +1,28 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddSession(
+    (options) =>
+    {
+        //最大間隔時間為30分鐘
+        options.IdleTimeout = TimeSpan.FromMinutes(30);
+    }
+);
 
+ConfigurationManager manager = builder.Configuration;
+String connectionString = manager.GetConnectionString("nor");
+Console.WriteLine(connectionString);
+
+builder.Services.AddDbContext<Restaurant.Models.RestaurantDB>(
+        (options) =>
+        {
+            options.UseSqlServer(connectionString);
+        }
+ );
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -17,6 +37,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+app.UseSession();
 
 app.UseAuthorization();
 

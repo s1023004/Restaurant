@@ -1,8 +1,113 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model System.Collections.Generic.List<Restaurant.Models.Menu>
+@{
+    ViewData["Title"] = "阿榮餐廳";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<style>
+    *{
+        margin:0px auto;
+    }
+</style>
+<div class="text-center col-md-12 container">
+    <div class="row">
+        @foreach(var item in Model)
+        {
+            <div class="col-md-4" style="margin-bottom:30px;">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="~/image/@item.image" height="183px" width="275px" />
+                    <div class="card-body">
+                        <p class="menuId" style="display:none">@item.menuId</p>
+                        <h5 class="card-title">@item.menuName</h5>
+                        <p class="card-text">@item.price 元</p>
+                        <a href="#" class="btn btn-primary cart">加入購物車</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
 </div>
+<div id="cartdialog" style="display:none">
+    <p style="display:none" id="cart_id">@ViewData["cartId"]</p>
+    <div>
+        <div class="card" style="width: 18rem;">
+            <img id="cart_image" class="card-img-top" height="183px" width="275px" />
+            <div class="card-body">                
+                <h5 id="cart_name" class="card-title"></h5>
+                <p id="cart_price" class="card-text"></p>                
+            </div>
+        </div>
+    </div>
+    <div style="text-align:center">        
+        數量:
+        <button type="button" style="width:30px" class="btn btn-primary btn-sm" onclick="desc()">-</button>
+        <button type="button" style="background-color:white" class="btn btn-sm" id="count">1</button>
+        <button type="button" style="width:30px" class="btn btn-primary btn-sm" onclick="insc()">+</button>
+    </div>
+
+</div>
+<script>
+    function insc(){
+        var count = document.getElementById("count").innerHTML;
+        document.getElementById("count").innerHTML = parseInt(count)+1;
+    }
+
+    function desc(){
+        var count = document.getElementById("count").innerHTML;
+        if (parseInt(count) != 1){
+            document.getElementById("count").innerHTML = parseInt(count) - 1;
+        }        
+    }
+    $(function(){    
+        $(".cart").click(function(){
+            var item_image = $(this).parent().siblings('.card-img-top').attr('src');
+            var item_name = $(this).siblings('.card-title').text();
+            var item_price = $(this).siblings('.card-text').text();
+            var item_menuId = $(this).siblings('.menuId').text();                        
+            var item_id = $("#cart_id").text();
+            $("#count").text('1');
+            $('#cart_image').attr('src',item_image);
+            $('#cart_name').text(item_name);
+            $('#cart_price').text(item_price);            
+            $("#cartdialog").dialog(
+                {
+                    title:'加入購物車',
+                    modal:true,
+                    width:600,
+                    height:500,
+                    buttons:[
+                        {
+                            text:'加入購物車',
+                            class:'btn btn-primary',
+                            click:function(){
+                                var count = $("#count").text();
+                                $.ajax({
+                                    url:'@Url.Action("AddToCart","Home")',
+                                    type:'post',
+                                    data:{
+                                        cartId:item_id,
+                                        menuId:item_menuId,
+                                        menu_count: count
+                                    },
+                                    success:function(message){
+                                        $("#cart_id").text(message[1]);
+                                        alert(message[0]);
+                                        $('#cartdialog').dialog('close');
+                                    }
+                                })
+
+                            }
+                        },
+                        {
+                            text: '關閉',
+                            class: 'btn btn-danger',
+                            click: function () {
+                                $('#cartdialog').dialog('close');
+                            }
+                        }
+                    ]
+                }
+            )
+        })
+    })
+
+</script>

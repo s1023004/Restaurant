@@ -1,0 +1,65 @@
+﻿@model Dictionary<int,List<Restaurant.Models.MenuWithCount>>
+@{
+    ViewData["Title"] = "訂單查詢";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    Dictionary<int, int> CartToMoney = ViewData["Money"] as Dictionary<int, int>;
+}
+<style>
+    .money{
+        float:right;
+    }
+    @@media screen and (max-width: 720px){
+        .list_item{
+            display:flex;
+        }
+    }
+    .history{        
+        position: absolute;
+        top: 8%;
+        left: 75%;
+        width:max-content;
+    }
+</style>
+<h1>訂單查詢</h1>
+<button class="btn btn-primary history">清除訂單紀錄</button>
+
+@foreach (var key in Model.Keys)
+{
+    <li class="list-group-item">
+        <div class="list_item">
+            <h2>訂單編號 @key</h2>
+            <div>               
+                @for(int i = 0;i < Model[key].Count;i++)
+                {
+                    if(i == 0)
+                    {
+                        <span>@Model[key][i].menuName (@Model[key][i].price) X @Model[key][i].count</span>
+                    }
+                    else
+                    {
+                        <span>、@Model[key][i].menuName (@Model[key][i].price) X @Model[key][i].count</span>
+                    }
+                }
+                <span class="money">總共 @CartToMoney[key]元</span>
+            </div>
+            
+        </div>
+    </li>
+}
+
+<script>
+    $(".history").click(function () {
+        var IsClear = confirm("是否要刪除?");
+        if(IsClear){
+            $.ajax({
+                url: '@Url.Action("ClearHistory","Home")',
+                type: 'post',
+                success: function (message) {
+                    alert(message);
+                    location.reload();
+                }
+            })
+        }        
+    })
+    
+</script>
