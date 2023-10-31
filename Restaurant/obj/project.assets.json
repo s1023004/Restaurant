@@ -11115,11 +11115,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\Restaurant.csproj",
+      "projectUniqueName": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant.csproj",
       "projectName": "Restaurant",
-      "projectPath": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\Restaurant.csproj",
+      "projectPath": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant.csproj",
       "packagesPath": "C:\\Users\\roger\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\obj\\",
+      "outputPath": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
