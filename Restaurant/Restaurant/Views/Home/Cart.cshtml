@@ -58,7 +58,7 @@
                             <div class="card-body">
                                 <p class="menuId" style="display:none">@item.menuId</p>
                                 <h5 class="card-title">@item.menuName</h5>
-                                <p class="card-text">@item.price 元</p>
+                                <p class="card-text">@item.price</p> 元
                             </div>
                         </div>
                         <div class="amount">
@@ -145,26 +145,26 @@
             var IsDelete = confirm("確定要刪除嗎?");
             if(IsDelete){
                 var cartId = $(this).parents(".container").attr("cartId");                
-                var menuId = $(this).parents(".list_item").find(".menuId").text();
+                var item_menuId = $(this).parents(".amount").find(".menuId").text();
                 var li = $(this).parents(".list-group-item");
                 var price = $(this).parents(".list_item").find(".card-text").text();
-                var count = $(this).siblings(".count").text();
-                var totalMoney = parseInt($("#totalMoney").text()) - parseInt(price) * parseInt(count);
-                $("#totalMoney").text(totalMoney);
+                var count = $(this).parents(".amount").find(".count").text();
+                var totalMoney = parseInt($("#totalMoney").text()) - parseInt(price) * parseInt(count);                
                 $.ajax({
                     url: '@Url.Action("DeleteCart","Home")',
                     type: 'post',
                     data: {
                         cartId: cartId,
-                        menuId: menuId
+                        menuId: item_menuId
                     },
                     success: function (message) {
                         alert(message);
-                        //@totalMoney -= price * count;
+                        $("#totalMoney").text(totalMoney);
                         $("#submit").text("總共" + $('#totalMoney').text() + "元，送出訂單");
+                        //@totalMoney -= price * count;                        
                         li.remove();
                     }
-                })
+                })                
             }
         })
 

@@ -19,6 +19,13 @@
         .backColor{
             background-color:blanchedalmond;
         }
+
+        .burgermenu{
+            position: fixed;
+            left: 80%;
+            background-color: white;
+            z-index: 99;
+        }
     </style>
 </head>
 <body class="backColor">
@@ -31,7 +38,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul style="position: fixed; left:80%" class="navbar-nav flex-grow-1">
+                    <ul class="navbar-nav flex-grow-1 burgermenu">
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">菜單</a>
                         </li>
