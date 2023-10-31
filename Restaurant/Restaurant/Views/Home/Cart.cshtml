@@ -45,7 +45,7 @@
 
 <h1>購物車</h1>
 
-<div class="container" cartId="@ViewData["cartId"]">
+<div id="cartID" class="container" cartId="@ViewData["cartId"]">
     <ul class="list-group">
         @if(Model != null)
         {
@@ -62,10 +62,12 @@
                             </div>
                         </div>
                         <div class="amount">
+                            <span class="menuId" style="display:none">@item.menuId</span>
                             <button type="button" style="width:30px" class="btn btn-primary btn-sm minus">-</button>
                             @if (count != null)
                             {
                                 <button type="button" style="background-color:white" class="btn btn-sm count">@count[item.menuId]</button>
+
                             }
                             <button type="button" style="width:30px" class="btn btn-primary btn-sm plus">+</button>
                             <button class="btn btn-danger" style="margin-left:10px"><i class="bi bi-trash"></i></button>
@@ -87,9 +89,27 @@
             if ($(this).siblings(".count").text() != '1') {
                 $(this).siblings(".count").text(parseInt($(this).siblings(".count").text()) - 1);
                 var price = $(this).parents(".list_item").find(".card-text").text();
+                var count = $(this).siblings(".count").text();
+                var item_menuId = $(this).siblings(".menuId").text();
+                var item_id = $("#cartID").attr("cartId");
+                debugger;
                 $("#totalMoney").text(parseInt($("#totalMoney").text()) - parseInt(price));
                 $("#submit").text("總共"+ $('#totalMoney').text() + "元，送出訂單");
-                //@totalMoney -= price;
+                $.ajax({
+                    url: '@Url.Action("AddToCart2","Home")',
+                    type: 'post',
+                    data: {
+                        cartId: item_id,
+                        menuId: item_menuId,
+                        menu_count: count,
+                    },
+                    success: function (message) {
+                        if (message.length != 0) {
+                            alert(message[0]);
+                        }                        
+                        $('#cartdialog').dialog('close');
+                    }
+                })                
             }       
              
         })
@@ -98,6 +118,24 @@
             $(this).siblings(".count").text(parseInt($(this).siblings(".count").text()) + 1);
             var count = $(this).siblings(".count").text();
             var price = $(this).parents(".list_item").find(".card-text").text();
+            var count = $(this).siblings(".count").text();
+            var item_menuId = $(this).siblings(".menuId").text();
+            var item_id = $("#cartID").attr("cartId");
+            $.ajax({
+                url: '@Url.Action("AddToCart2","Home")',
+                type: 'post',
+                data: {
+                    cartId: item_id,
+                    menuId: item_menuId,
+                    menu_count: count,
+                },
+                success: function (message) {
+                    if (message.length != 0) {
+                            alert(message[0]);
+                    }
+                    $('#cartdialog').dialog('close');
+                }
+            })
             $("#totalMoney").text(parseInt($("#totalMoney").text()) + parseInt(price));
             $("#submit").text("總共" + $('#totalMoney').text() + "元，送出訂單");
             //@totalMoney += price;

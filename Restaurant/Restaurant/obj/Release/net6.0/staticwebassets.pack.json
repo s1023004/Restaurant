@@ -1,0 +1,397 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\Restaurant.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Restaurant.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\image\\Beef_noodles.jpg",
+      "PackagePath": "staticwebassets\\image\\Beef_noodles.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\image\\Braised_Pork_Rice.jpg",
+      "PackagePath": "staticwebassets\\image\\Braised_Pork_Rice.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\image\\Braised_Rice_with_Pork_and_Soy_Sauce.jpg",
+      "PackagePath": "staticwebassets\\image\\Braised_Rice_with_Pork_and_Soy_Sauce.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\image\\Fried_noodles_with_shredded_pork.jpg",
+      "PackagePath": "staticwebassets\\image\\Fried_noodles_with_shredded_pork.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\image\\Fried_rice_with_shredded_pork.jpg",
+      "PackagePath": "staticwebassets\\image\\Fried_rice_with_shredded_pork.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\image\\Ribs_with_rice.jpg",
+      "PackagePath": "staticwebassets\\image\\Ribs_with_rice.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\AUTHORS.txt",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\AUTHORS.txt"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\external\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\external\\jquery\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\images\\ui-bg_diagonals-medium_20_d34d17_40x40.png",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\images\\ui-bg_diagonals-medium_20_d34d17_40x40.png"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\images\\ui-bg_gloss-wave_45_817865_500x100.png",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\images\\ui-bg_gloss-wave_45_817865_500x100.png"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\images\\ui-bg_gloss-wave_60_fece2f_500x100.png",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\images\\ui-bg_gloss-wave_60_fece2f_500x100.png"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\images\\ui-bg_gloss-wave_70_ffdd57_500x100.png",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\images\\ui-bg_gloss-wave_70_ffdd57_500x100.png"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\images\\ui-bg_gloss-wave_90_fff9e5_500x100.png",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\images\\ui-bg_gloss-wave_90_fff9e5_500x100.png"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\images\\ui-bg_highlight-soft_100_feeebd_1x100.png",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\images\\ui-bg_highlight-soft_100_feeebd_1x100.png"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\images\\ui-bg_inset-soft_30_ffffff_1x100.png",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\images\\ui-bg_inset-soft_30_ffffff_1x100.png"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\images\\ui-icons_3d3d3d_256x240.png",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\images\\ui-icons_3d3d3d_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\images\\ui-icons_bd7b00_256x240.png",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\images\\ui-icons_bd7b00_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\images\\ui-icons_d19405_256x240.png",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\images\\ui-icons_d19405_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\images\\ui-icons_eb990f_256x240.png",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\images\\ui-icons_eb990f_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\images\\ui-icons_ed9f26_256x240.png",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\images\\ui-icons_ed9f26_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\images\\ui-icons_fadc7a_256x240.png",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\images\\ui-icons_fadc7a_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\images\\ui-icons_ffe180_256x240.png",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\images\\ui-icons_ffe180_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\index.html",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\jquery-ui.css"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\jquery-ui.js",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\jquery-ui.js"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\jquery-ui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\jquery-ui.structure.css",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\jquery-ui.structure.css"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\jquery-ui.structure.min.css",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\jquery-ui.structure.min.css"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\jquery-ui.theme.css",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\jquery-ui.theme.css"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\jquery-ui.theme.min.css",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\jquery-ui.theme.min.css"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\jquery-ui-1.13.2.custom\\package.json",
+      "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.2.custom\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\roger\\OneDrive\\桌面\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.Restaurant.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.build.Restaurant.props",
+      "PackagePath": "build\\Restaurant.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Restaurant.props",
+      "PackagePath": "buildMultiTargeting\\Restaurant.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildTransitive.Restaurant.props",
+      "PackagePath": "buildTransitive\\Restaurant.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

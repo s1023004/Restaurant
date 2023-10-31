@@ -69,6 +69,8 @@ namespace Restaurant.Controllers
                 {
                     //_dbContext.Entry(cart).State = EntityState.Modified;
                     //_dbContext.SaveChanges();
+
+#if Debug
                     using (var connection = new SqlConnection("Server=localhost;Database=Restaurant;User id=sa;password=1111;Trusted_Connection=True;TrustServerCertificate=true;Integrated Security=True"))
                     {
                         connection.Open();
@@ -78,9 +80,22 @@ namespace Restaurant.Controllers
                             command.ExecuteNonQuery();
                         }
                     }
+#else
+
+                    using (var connection = new SqlConnection("Server=tcp:rogerwebdb.database.windows.net,1433;Initial Catalog=Restaurant;Persist Security Info=False;User ID=s1023004;Password=!Qaz1023004;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"))
+                    {
+                        connection.Open();
+                        var query = "SET IDENTITY_INSERT dbo.Cart ON; Update dbo.Cart Set MenuCount = "+ cart.menuCount + " where CartId = " + cartId +" and MenuId = " + menuId + "; SET IDENTITY_INSERT dbo.Cart OFF;";
+                        using (var command = new SqlCommand(query, connection))
+                        {
+                            command.ExecuteNonQuery();
+                        }
+                    }
+#endif
                 }
                 else
                 {
+#if Debug
                     using (var connection = new SqlConnection("Server=localhost;Database=Restaurant;User id=sa;password=1111;Trusted_Connection=True;TrustServerCertificate=true;Integrated Security=True"))
                     {
                         connection.Open();
@@ -90,19 +105,81 @@ namespace Restaurant.Controllers
                             command.ExecuteNonQuery();
                         }
                     }
+                
+#else
+                    using (var connection = new SqlConnection("Server=tcp:rogerwebdb.database.windows.net,1433;Initial Catalog=Restaurant;Persist Security Info=False;User ID=s1023004;Password=!Qaz1023004;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"))
+                    {
+                        connection.Open();
+                        var query = "SET IDENTITY_INSERT dbo.Cart ON; INSERT INTO dbo.Cart (MenuId,MenuCount,CartId,OrderFinish) VALUES (" + menuId.ToString() + "," + menu_count.ToString() + "," + cartId.ToString() + ", 0); SET IDENTITY_INSERT dbo.Cart OFF;";
+                        using (var command = new SqlCommand(query, connection))
+                        {
+                            command.ExecuteNonQuery();
+                        }
+                    }
+#endif
                 }
-            
-                message.Add($"購物車編號:{cart.cartId}新增成功!");
+                message.Add($"購物車編號:{cartId}新增成功!");
                 message.Add(cartId.ToString());
             }
             catch (Exception ex)
             {
-                message.Add($"購物車編號:{cart.cartId}新增失敗!失敗原因:" + ex.Message);
+                message.Add($"購物車編號:{cartId}新增失敗!失敗原因:" + ex.Message);
             }
             
             return Json(message);
         }
 
+        public IActionResult AddToCart2(int cartId, int menuId, int menu_count)
+        {
+            List<string> message = new List<string>();
+            var cart = _dbContext.Cart.Where(c => c.cartId == cartId && c.menuId == menuId).FirstOrDefault();
+            if (cart == null)
+            {
+                cart = new Cart();
+            }
+            cart.cartId = cartId;
+            cart.menuId = menuId;
+            cart.menuCount = menu_count;
+            cart.orderFinish = "0";
+            _dbContext.Cart.Add(cart);
+            try
+            {
+                if (_dbContext.Cart.Where(c => c.cartId == cartId && c.menuId == menuId).FirstOrDefault() != null)
+                {
+                    //_dbContext.Entry(cart).State = EntityState.Modified;
+                    //_dbContext.SaveChanges();
+
+#if Debug
+                    using (var connection = new SqlConnection("Server=localhost;Database=Restaurant;User id=sa;password=1111;Trusted_Connection=True;TrustServerCertificate=true;Integrated Security=True"))
+                    {
+                        connection.Open();
+                        var query = "SET IDENTITY_INSERT dbo.Cart ON; Update dbo.Cart Set MenuCount = "+ cart.menuCount + " where CartId = " + cartId +" and MenuId = " + menuId + "; SET IDENTITY_INSERT dbo.Cart OFF;";
+                        using (var command = new SqlCommand(query, connection))
+                        {
+                            command.ExecuteNonQuery();
+                        }
+                    }
+#else
+
+                    using (var connection = new SqlConnection("Server=tcp:rogerwebdb.database.windows.net,1433;Initial Catalog=Restaurant;Persist Security Info=False;User ID=s1023004;Password=!Qaz1023004;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"))
+                    {
+                        connection.Open();
+                        var query = "SET IDENTITY_INSERT dbo.Cart ON; Update dbo.Cart Set MenuCount = " + cart.menuCount + " where CartId = " + cartId + " and MenuId = " + menuId + "; SET IDENTITY_INSERT dbo.Cart OFF;";
+                        using (var command = new SqlCommand(query, connection))
+                        {
+                            command.ExecuteNonQuery();
+                        }
+                    }
+#endif
+                }         
+            }
+            catch (Exception ex)
+            {
+                message.Add($"購物車編號:{cartId}新增失敗!失敗原因:" + ex.Message);
+            }
+
+            return Json(message);
+        }
         public IActionResult Cart()
         {
             int cartId = 0;
@@ -171,6 +248,8 @@ namespace Restaurant.Controllers
                 order.isShow = "1";
                 _dbContext.Order.Add(order);
                 _dbContext.SaveChanges();
+#if Debug
+
                 using (var connection = new SqlConnection("Server=localhost;Database=Restaurant;User id=sa;password=1111;Trusted_Connection=True;TrustServerCertificate=true;Integrated Security=True"))
                 {
                     connection.Open();
@@ -180,6 +259,17 @@ namespace Restaurant.Controllers
                         command.ExecuteNonQuery();
                     }
                 }
+#else
+                using (var connection = new SqlConnection("Server=tcp:rogerwebdb.database.windows.net,1433;Initial Catalog=Restaurant;Persist Security Info=False;User ID=s1023004;Password=!Qaz1023004;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"))
+                {
+                    connection.Open();
+                    var query = "SET IDENTITY_INSERT dbo.Cart ON; Update dbo.Cart Set OrderFinish = '1' where CartId = " + CartID + "; SET IDENTITY_INSERT dbo.Cart OFF;";
+                    using (var command = new SqlCommand(query, connection))
+                    {
+                        command.ExecuteNonQuery();
+                    }
+                }
+#endif
                 message = "訂單送出成功";
                 var cartId = _dbContext.Cart.OrderByDescending(x => x.cartId).FirstOrDefault().cartId + 1;
                 ViewData["cartId"] = cartId + 1;
@@ -277,6 +367,8 @@ namespace Restaurant.Controllers
             string message = "";
             try
             {
+#if Debug
+
                 using (var connection = new SqlConnection("Server=localhost;Database=Restaurant;User id=sa;password=1111;Trusted_Connection=True;TrustServerCertificate=true;Integrated Security=True"))
                 {
                     connection.Open();
@@ -286,6 +378,17 @@ namespace Restaurant.Controllers
                         command.ExecuteNonQuery();
                     }
                 }
+#else
+                using (var connection = new SqlConnection("Server=tcp:rogerwebdb.database.windows.net,1433;Initial Catalog=Restaurant;Persist Security Info=False;User ID=s1023004;Password=!Qaz1023004;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"))
+                {
+                    connection.Open();
+                    var query = "SET IDENTITY_INSERT [Restaurant].[dbo].[Order] ON; Update [Restaurant].[dbo].[Order] Set IsShow = '0'; SET IDENTITY_INSERT [Restaurant].[dbo].[Order] OFF;";
+                    using (var command = new SqlCommand(query, connection))
+                    {
+                        command.ExecuteNonQuery();
+                    }
+                }
+#endif
                 message = "清除成功!";
             }
             catch(Exception ex)
